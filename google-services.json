@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "369739010732",
+    "firebase_url": "https://practiscore-4b371-default-rtdb.firebaseio.com",
+    "project_id": "practiscore-4b371",
+    "storage_bucket": "practiscore-4b371.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369739010732:android:91d6e2109e84dd70840509",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEP-05dlDNyAcaSZOtOecKlECwulrescM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

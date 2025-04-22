@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Selected Subject Display -->
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Marks Entry Table -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:background="@android:color/darker_gray"
+        android:padding="4dp">
+
+        <!-- Table Header -->
+        <TableRow android:background="@android:color/holo_blue_light">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Username"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Observation Marks Row -->
+        <TableRow android:background="@android:color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Observation (10)"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/et_observation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter marks"
+                android:maxLength="2"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Verification Marks Row -->
+        <TableRow android:background="@android:color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verification (10)"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/et_verification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter marks"
+                android:maxLength="2"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Viva Marks Row -->
+        <TableRow android:background="@android:color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Viva (5)"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/et_viva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter marks"
+                android:maxLength="2"
+                android:padding="8dp" />
+        </TableRow>
+
+        <!-- Total Marks Row -->
+        <TableRow android:background="@android:color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:padding="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="8dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Marks"
+        android:layout_marginTop="16dp" />
+
+    <!-- Generate Report Button -->
+    <Button
+        android:id="@+id/btn_generate_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Report"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
