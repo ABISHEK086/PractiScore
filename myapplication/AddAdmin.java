@@ -30,8 +30,6 @@ public class AddAdmin extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("admins");
-
-        // Initialize UI elements
         emailField = findViewById(R.id.email);
         passwordField = findViewById(R.id.password);
         Button registerButton = findViewById(R.id.loginButton);
