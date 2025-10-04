@@ -28,7 +28,7 @@ public class AddAdmin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_admin);
 
-        // Initialize Fir
+        // Initialize Fi
         mAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("admins");
 
