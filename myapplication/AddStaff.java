@@ -32,7 +32,6 @@ public class AddStaff extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("staff");
 
-        // Initialize UI elements
         emailField = findViewById(R.id.mail);
         passwordField = findViewById(R.id.password);
         registerButton = findViewById(R.id.loginButton);
