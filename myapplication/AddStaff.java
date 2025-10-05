@@ -28,7 +28,7 @@ public class AddStaff extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_staff);
 
-        // Initialize Firebase Authentica
+        // Initialize Firebase Authentic
         mAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("staff");
 
