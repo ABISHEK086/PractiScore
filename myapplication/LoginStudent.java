@@ -30,7 +30,7 @@ public class LoginStudent extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login_student);
 
-        // Handling window inset
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.a), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
