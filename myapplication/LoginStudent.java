@@ -37,7 +37,7 @@ public class LoginStudent extends AppCompatActivity {
             return insets;
         });
 
-        emailEditText = findViewById(R.id.username); // Assume you added an EditText for email
+        emailEditText = findViewById(R.id.username); 
         passwordEditText = findViewById(R.id.password);
         loginButton = findViewById(R.id.loginButton);
 
