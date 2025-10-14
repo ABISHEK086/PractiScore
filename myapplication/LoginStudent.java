@@ -43,7 +43,7 @@ public class LoginStudent extends AppCompatActivity {
 
         databaseReference = FirebaseDatabase.getInstance().getReference("users/students");
 
-        // Login Button Click Listener
+
         loginButton.setOnClickListener(v -> {
             String enteredEmail = emailEditText.getText().toString().trim();
             String enteredPassword = passwordEditText.getText().toString().trim();
