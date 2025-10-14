@@ -41,7 +41,6 @@ public class LoginStudent extends AppCompatActivity {
         passwordEditText = findViewById(R.id.password);
         loginButton = findViewById(R.id.loginButton);
 
-        // Firebase Database Reference (Admins)
         databaseReference = FirebaseDatabase.getInstance().getReference("users/students");
 
         // Login Button Click Listener
