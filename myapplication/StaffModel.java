@@ -9,7 +9,7 @@ public class StaffModel {
         // Default constructor (needed for Firebase)
         public Staff() {    
         }   
-  
+   
         // Constructor with parameters 
         public Staff(String email, String role) {
             this.email = email;
@@ -37,6 +37,7 @@ public class StaffModel {
         }
     }
 }
+
 
 
 
