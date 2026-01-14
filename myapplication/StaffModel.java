@@ -1,7 +1,7 @@
 package com.example.myapplication;
 
 public class StaffModel {
-
+ 
     public static class Staff {  
         private String email;  
         private String role; 
@@ -37,6 +37,7 @@ public class StaffModel {
         }
     }
 }
+
 
 
 
