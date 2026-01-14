@@ -16,7 +16,7 @@ public class StaffModel {
             this.role = role;
         }
 
-        // Getter for email
+        // Getter for email 
         public String getEmail() {
             return email;
         }
@@ -37,6 +37,7 @@ public class StaffModel {
         }
     }
 }
+
 
 
 
