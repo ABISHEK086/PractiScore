@@ -11,7 +11,7 @@ public class StaffModel {
         }   
    
         // Constructor with parameters 
-        public Staff(String email, String role) {
+        public Staff(String email, String role) { 
             this.email = email;
             this.role = role;
         }
@@ -37,6 +37,7 @@ public class StaffModel {
         }
     }
 }
+
 
 
 
