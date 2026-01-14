@@ -3,7 +3,7 @@ package com.example.myapplication;
 public class StaffModel {
 
     public static class Staff {
-        private String email;
+        private String email; 
         private String role;
   
         // Default constructor (needed for Firebase)
@@ -37,5 +37,6 @@ public class StaffModel {
         }
     }
 }
+
 
 
