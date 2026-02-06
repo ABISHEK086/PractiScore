@@ -67,7 +67,7 @@ public class ViewMarks extends AppCompatActivity {
                     addTableCell(headerRow, "Verification", true);
                     addTableCell(headerRow, "Viva", true);
                     addTableCell(headerRow, "Total", true);
-                    marksTable.addView(headerRow);
+                    marksTable.addView(headerRow); 
 
                     // Fetch all subjects for this student
                     for (DataSnapshot subjectSnapshot : studentSnapshot.getChildren()) {
