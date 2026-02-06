@@ -63,7 +63,6 @@ public class ViewMarks extends AppCompatActivity {
                     // Add Table Header
                     TableRow headerRow = new TableRow(ViewMarks.this);
                     addTableCell(headerRow, "Subject", true);
-                    addTableCell(heaederRow, "Objectives" , true);
                     addTableCell(headerRow, "Observation", true);
                     addTableCell(headerRow, "Verification", true);
                     addTableCell(headerRow, "Viva", true);
