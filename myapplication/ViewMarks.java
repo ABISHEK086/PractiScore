@@ -36,7 +36,7 @@ public class ViewMarks extends AppCompatActivity {
     } 
 
     private void fetchAllStudentMarks() {
-        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() { 
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if (!snapshot.exists()) {
