@@ -45,7 +45,7 @@ public class ViewMarks extends AppCompatActivity {
                 }
 
                 marksTable.removeAllViews(); // Clear previous data
-
+ 
                 // Loop through each student
                 for (DataSnapshot studentSnapshot : snapshot.getChildren()) {
                     String studentId = studentSnapshot.getKey();
