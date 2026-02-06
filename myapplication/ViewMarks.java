@@ -33,7 +33,7 @@ public class ViewMarks extends AppCompatActivity {
         databaseReference = FirebaseDatabase.getInstance().getReference("marks");
 
         fetchAllStudentMarks();
-    }
+    } 
 
     private void fetchAllStudentMarks() {
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
